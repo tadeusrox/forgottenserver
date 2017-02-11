@@ -5,9 +5,9 @@ hotkeyAimbotEnabled = true
 protectionLevel = 1
 killsToRedSkull = 3
 killsToBlackSkull = 6
-pzLocked = 60000
+pzLocked = 0
 removeChargesFromRunes = true
-timeToDecreaseFrags = 24 * 60 * 60 * 1000
+timeToDecreaseFrags = 0 * 60 * 60 * 1000
 whiteSkullTime = 15 * 60 * 1000
 stairJumpExhaustion = 2000
 experienceByKillingPlayers = false
@@ -33,7 +33,7 @@ maxPacketsPerSecond = 25
 -- NOTE: Leave deathLosePercent as -1 if you want to use the default
 -- death penalty formula. For the old formula, set it to 10. For
 -- no skill/experience loss, set it to 0.
-deathLosePercent = -1
+deathLosePercent = 0
 
 -- Houses
 -- NOTE: set housePriceEachSQM to -1 to disable the ingame buy house functionality
@@ -57,8 +57,8 @@ maxMarketOffersAtATimePerPlayer = 100
 
 -- MySQL
 mysqlHost = "127.0.0.1"
-mysqlUser = "forgottenserver"
-mysqlPass = ""
+mysqlUser = "root"
+mysqlPass = "123456"
 mysqlDatabase = "forgottenserver"
 mysqlPort = 3306
 mysqlSock = ""
@@ -73,11 +73,11 @@ classicEquipmentSlots = false
 
 -- Rates
 -- NOTE: rateExp is not used if you have enabled stages in data/XML/stages.xml
-rateExp = 5
-rateSkill = 3
+rateExp = 100
+rateSkill = 300
 rateLoot = 2
-rateMagic = 3
-rateSpawn = 1
+rateMagic = 30
+rateSpawn = 5
 
 -- Monsters
 deSpawnRange = 2

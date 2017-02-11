@@ -1,8 +1,4 @@
 function onSay(player, words, param)
-	if not player:getGroup():getAccess() then
-		return true
-	end
-
 	local creature = Creature(param)
 	if not creature then
 		player:sendCancelMessage("A creature with that name could not be found.")
